@@ -1,0 +1,33 @@
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+}
+
+.about__card{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.about__container{
+    text-align: justify;
+}
+
+/*Media Query */
+
+@media screen and (max-width: 600px){
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+.about__container{
+    text-align: center;
+}
+
+.about__container p {
+    margin: 1.5rem 0;
+}
+
+}
+
