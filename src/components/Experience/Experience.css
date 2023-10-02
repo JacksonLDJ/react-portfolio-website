@@ -6,7 +6,7 @@
 
 
 .experience__container > div{
-    background: grey;
+    background: rgb(0, 0, 0);
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -20,15 +20,16 @@
 .experience__content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+    row-gap: 3rem;
 }
 
 .experience__details{
     display: flex;
     gap: 1rem;
+    
 }
 
 .experience__details-icon{
-    margin-top: 6px;
-    color: black;
+    margin-top: 10px;
+    color: white;
 }
