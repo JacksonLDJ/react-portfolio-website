@@ -34,7 +34,7 @@ const About = () => {
         </div>
         
 
-      <p>Hi, my name is Liam Jackson, I'm currently working full time as a Senior ICT Technician and studying for a degree in Cybersecurity. I've been working as a SysAdmin for the last 9 years and for the last two I have been studing for a Degree in Cybersecurity through a degree apprenticeship. This website is acting as my first project using ReactJS, JavaScript and CSS and is also acting as my portfolio. I plan to add more to this website as I learn both front and back end web development in my free time and look to upload project I have completed outside of this one. Thank you for taking the time to look and read through my website! </p>
+      <p>Hello there! My name is Liam Jackson, I'm currently working full-time as a Senior ICT Technician at a Secondary School whilst studying for a degree in Cybersecurity through the Degree Apprenticeship scheme! This website aims to act primarily as a portfolio website of projects completed during my degree, but also personal projects I aim to complete in my own time. The website itself aims to demonstrate my ability to create a website using React, JSX, CSS and HTML. I aim to develop this website further to implemement cybersecurity ideas and theories to secure the website. This is ultiamtely a work in process and whilst live, it is subject to change! Thanks for taking the time to look over my website!  </p>
         
       </div>
       </div>
