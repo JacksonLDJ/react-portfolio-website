@@ -8,22 +8,18 @@
 .contact__options {
     display: flex;
     flex-direction: column;
-    gap: 1.2rem
+    gap: 1.2rem;
 }
 
 .contact__option {
-    background: red;
+    background: transparent;
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 1px solid transparent;
+    border: 2px solid;
     transition: var(--transition);
 }
 
-.contact__option:hover {
-    background: transparent;
-    border: blue;
-}
 
 .contact__option-icon {
     font-size: 1.5rem;
