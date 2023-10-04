@@ -6,10 +6,11 @@
 
 
 .experience__container > div{
-    background: rgb(0, 0, 0);
+    background: transparent;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
+    border: 2px solid black;
 }
 
 .experience__container > div h3{
@@ -26,10 +27,11 @@
 .experience__details{
     display: flex;
     gap: 1rem;
+    color: black;
     
 }
 
 .experience__details-icon{
     margin-top: 10px;
-    color: white;
+    color: black;
 }
