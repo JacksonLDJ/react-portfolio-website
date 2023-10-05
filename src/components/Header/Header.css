@@ -32,6 +32,10 @@ Header {
     width: 25%;
 }
 
+.darkmode{
+    justify-content: right;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1024px) {

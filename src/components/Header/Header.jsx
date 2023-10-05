@@ -1,6 +1,8 @@
 import React from 'react'
 import './Header.css'
 import CTA from './CTA'
+import HeaderSocial from './HeaderSocial'
+
 
 
 

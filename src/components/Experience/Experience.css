@@ -10,7 +10,7 @@
     padding: 2.4rem 5rem;
     border-radius: 2rem;
     border: 1px solid transparent;
-    border: 2px solid black;
+    border: 2px solid var(--color-black);
 }
 
 .experience__container > div h3{
@@ -27,11 +27,11 @@
 .experience__details{
     display: flex;
     gap: 1rem;
-    color: black;
+    color: var(--color-black);
     
 }
 
 .experience__details-icon{
     margin-top: 10px;
-    color: black;
+    color: var(--color-black);
 }
