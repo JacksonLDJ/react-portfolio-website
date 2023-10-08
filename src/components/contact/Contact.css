@@ -17,7 +17,9 @@
     border-radius: 1.2rem;
     text-align: center;
     border: 2px solid;
+    border-color: var(--color-primary);
     transition: var(--transition);
+    color: var(--color-primary);
 }
 
 
@@ -46,7 +48,8 @@ input, textarea {
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-black);
+    border: 2px solid var(--color-primary);
     resize: none;
+    color: var(--color-primary);
 
 }

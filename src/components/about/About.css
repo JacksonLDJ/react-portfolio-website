@@ -2,16 +2,22 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
+    background-color: var(--color-bg);
 }
 
 .about__card{
     text-align: center;
     padding-bottom: 10%;
+    background-color: var(--color-bg);
+    border-bottom-color: var(--color-primary)
 }
 
 .about__container{
     text-align: justify;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
 }
+
 
 /*Media Query */
 
@@ -27,6 +33,7 @@
 
 .about__container p {
     margin: 1.5rem 0;
+    
 }
 
 }

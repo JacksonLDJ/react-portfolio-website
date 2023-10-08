@@ -5,11 +5,13 @@ import Contact from './components/contact/Contact'
 import Experience from './components/Experience/Experience'
 import About from './components/about/About'
 import Footer from './components/Footer/Footer'
+import DarkMode from './components/DarkMode/DarkMode'
 
 
 export const App = () => {
   return (
     <>
+        <DarkMode/>
         <Header />
         <Nav />
         <About />

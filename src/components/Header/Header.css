@@ -2,6 +2,8 @@ Header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+    background-color: var(--color-bg);
+    color: var(--color-primary)
 }
 
 .header__container {
@@ -32,9 +34,6 @@ Header {
     width: 25%;
 }
 
-.darkmode{
-    justify-content: right;
-}
 
 /* Media Queries */
 
