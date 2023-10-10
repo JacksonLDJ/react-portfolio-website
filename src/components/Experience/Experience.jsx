@@ -48,31 +48,31 @@ const Experience = () => {
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon'/>
             <div>
             <h4>ReactJS</h4>
-            <small>Experienced</small>
+            <small>Basic</small>
             </div>
             </article>
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' />
             <div>
             <h4 >CSS</h4>
-            <small >Experienced</small>
+            <small >Basic</small>
             </div>
             </article>
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' />
             <div>
             <h4 >JavaScript</h4>
-            <small >Experienced</small>
+            <small >Basic</small>
             </div>
             </article>
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' />
             <div>
             <h4 >Django</h4>
-            <small >Experienced</small>
+            <small >Basic</small>
             </div>
             </article>
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' />
             <div>
             <h4 >Python</h4>
-            <small >Experienced</small>
+            <small >Basic</small>
             </div>
             </article>
           </div>

@@ -37,3 +37,16 @@
     margin-top: 10px;
     color: var(--color-primary);
 }
+
+/*Media Query */
+
+@media screen and (max-width: 600px){
+    .experience__container {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        align-items: center;
+        padding-right: 0;
+
+    }
+
+}
