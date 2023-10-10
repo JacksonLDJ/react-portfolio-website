@@ -4,7 +4,6 @@ import Nav from './components/Nav/Nav'
 import Contact from './components/contact/Contact'
 import Experience from './components/Experience/Experience'
 import About from './components/about/About'
-import Footer from './components/Footer/Footer'
 import DarkMode from './components/DarkMode/DarkMode'
 
 
@@ -17,7 +16,6 @@ export const App = () => {
         <About />
         <Experience />
         <Contact />
-        <Footer />
     </>
   )
 }

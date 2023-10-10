@@ -1,8 +1,6 @@
 .dark_mode {
     position: fixed;
-    background-color: var(--color-bg);
     padding-left: 1rem;
-
 }
 
 
