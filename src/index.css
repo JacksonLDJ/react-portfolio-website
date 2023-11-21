@@ -123,6 +123,17 @@ a:hover {
     border-color: transparent;
 }
 
+
+
+
+[data-theme="dark"] .btn:hover {
+    background: var(--color-primary);
+    color: black;
+    border-color: black;
+
+}
+
+
 .btn-primary {
     color: var(--color-primary);
     background-color: var(--color-bg);

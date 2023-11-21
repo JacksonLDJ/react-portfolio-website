@@ -1,6 +1,7 @@
 .dark_mode {
     position: fixed;
     padding-left: 1rem;
+    z-index: 1000;
 }
 
 
