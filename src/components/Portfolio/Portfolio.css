@@ -1,0 +1,36 @@
+
+.portfolio__container{
+    text-align: justify;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+}
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+
+    .header__logo {
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    header {
+        height: 100vh;
+    }
+    .header__socials {
+        display: none;
+    }
+
+    .header__logo {
+        display: none;
+    }
+}

@@ -6,9 +6,10 @@
 }
 
 .contact__options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    background-color: var(--color-bg);
 }
 
 .contact__option {
@@ -20,6 +21,11 @@
     border-color: var(--color-primary);
     transition: var(--transition);
     color: var(--color-primary);
+    background: transparent;
+    padding: 2.4rem 9.5rem;
+    border-radius: rem;
+    border: 1px solid transparent;
+    border: 2px solid var(--color-primary);
 }
 
 

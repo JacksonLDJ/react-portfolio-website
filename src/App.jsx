@@ -5,6 +5,7 @@ import Contact from './components/contact/Contact'
 import Experience from './components/Experience/Experience'
 import About from './components/about/About'
 import DarkMode from './components/DarkMode/DarkMode'
+import Portfolio from './components/Portfolio/Portfolio'
 
 
 export const App = () => {
@@ -16,6 +17,7 @@ export const App = () => {
         <About />
         <Experience />
         <Contact />
+        <Portfolio />
     </>
   )
 }
