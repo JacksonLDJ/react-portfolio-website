@@ -1,14 +1,13 @@
 .container.contact__container {
-    width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12rem;
+    gap: 2rem;
+    
 }
 
 .contact__options {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 5rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
     background-color: var(--color-bg);
 }
 
@@ -23,7 +22,6 @@
     color: var(--color-primary);
     background: transparent;
     padding: 2.4rem 9.5rem;
-    border-radius: rem;
     border: 1px solid transparent;
     border: 2px solid var(--color-primary);
 }

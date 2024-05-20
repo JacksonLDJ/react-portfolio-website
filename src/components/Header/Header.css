@@ -41,7 +41,7 @@ Header {
     left: 50%;
     transform: translateX(-50%);
     font-size: 24px; /* Adjust the font size as needed */
-    color: var(--color-primary); /* Use the same color as your header text */
+    color: #64ffda; /* Use the same color as your header text */
     cursor: pointer;
     transition: opacity 0.6s ease-in-out; /* Adjust the duration as needed */
   }
