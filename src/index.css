@@ -14,26 +14,19 @@
 }
 
 :root{
-    --color-bg: white;
-    --color-primary: black;
+    --color-bg: #0a192f;
+    --color-primary: #a8b2d1;
     --color-primary-variant: grey;
 
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
     --container-width-md: 86%;
-    --container-width-ms: 90%;
+    --container-width-sm: 90%;
 
     font-family: 'Poppins', sans-serif;
     line-height: 1.7;
     
-}
-
-[data-theme="dark"] {
-    --color-bg: black;
-    --color-primary: white;
-    --color-primary-variant: black;
-
 }
 
 html{
@@ -62,11 +55,13 @@ h3,
 h4, 
 h5 {
     font-weight: 500;
+    color: #64ffda;
     
 }
 
 h1 {
-    font-size: 2.5rem
+    font-size: 2.5rem;
+    color: #e6f1ff;
 }
 
 
@@ -83,7 +78,7 @@ section > h2, section > h5{
 }
 
 section > h2{
-    color: var(--color-primary);
+    color: #64ffda;
     margin-bottom: 3rem;
     border-bottom-color: var(--color-primary)
 }
@@ -108,19 +103,19 @@ a:hover {
 .btn {
     width: max-content;
     display: inline-block;
-    color: var(--color-primary);
+    color: #64ffda;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
     cursor: pointer;
-    border: 1px solid var(--color-primary);
+    border: 1px solid #64ffda;
     transition: var(--transition)
 
 }
 
 .btn:hover{
-    background: var(--color-primary);
+    background: #233554;
     color: white;
-    border-color: transparent;
+    border-color: #64ffda;
 }
 
 

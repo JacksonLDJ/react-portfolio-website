@@ -11,7 +11,6 @@ import Portfolio from './components/Portfolio/Portfolio'
 export const App = () => {
   return (
     <>
-        <DarkMode/>
         <Header />
         <Nav />
         <About />
