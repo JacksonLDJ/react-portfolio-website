@@ -113,20 +113,10 @@ a:hover {
 }
 
 .btn:hover{
-    background: #8892b0;
     color: white;
     border-color: #64ffda;
 }
 
-
-
-
-[data-theme="dark"] .btn:hover {
-    background: var(--color-primary);
-    color: black;
-    border-color: black;
-
-}
 
 
 .btn-primary {
