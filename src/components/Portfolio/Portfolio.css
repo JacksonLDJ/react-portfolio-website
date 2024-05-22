@@ -2,6 +2,11 @@
     padding: 2rem 0;
     text-align: center;
   }
+
+  .portfolio__intro {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
   
   .portfolio__container {
     display: flex;
@@ -41,4 +46,11 @@
     margin: 0;
     color: #64ffda;
   }
-  
+
+  /* Media queries */
+
+  @media screen and (max-width: 1024px) {
+    .portfolio__intro{
+        padding-top: 12rem;
+    }
+}

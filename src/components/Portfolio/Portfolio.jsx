@@ -18,8 +18,10 @@ const Portfolio = () => {
 
   return (
     <section id='portfolio'>
+      <div className='portfolio__intro'>
       <h5>Take a look at</h5>
       <h2>My Portfolio</h2>
+      </div>
 
       <div className="container portfolio__container">
         <div className='portfolio__content'>
