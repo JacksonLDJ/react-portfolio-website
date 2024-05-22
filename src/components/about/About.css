@@ -18,25 +18,57 @@
     color: var(--color-primary);
 }
 
+.about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    background-color: var(--color-bg);
+}
 
+.about__card {
+    text-align: center;
+    padding-bottom: 10%;
+    background-color: var(--color-bg);
+    border-bottom-color: var(--color-primary);
+}
 
-/*Media Query */
+.about__container {
+    text-align: justify;
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+}
 
-@media screen and (max-width: 600px){
+/* Media queries for popular devices */
+@media only screen and (max-width: 768px) {
     .about__cards {
-        grid-template-columns: 1fr 1fr;
-        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .about__cards {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .about__container {
+        padding-bottom: 100%;
+    }
+}
+
+/* Media queries for sections */
+@media only screen and (max-width: 768px) {
+    .section {
+        padding: 2rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .section {
+        padding: 1rem;
     }
 
-.about__container{
-    text-align: center;
-    padding-bottom: 100%;
 }
-
-.about__container p {
-    margin: 1.5rem 0;
-    
-}
-
-}
-

@@ -1,11 +1,4 @@
-/* Apply box-sizing globally */
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+
 
 /* Container styles */
 .experience__container {
@@ -52,21 +45,48 @@
     color: var(--color-primary);
 }
 
-/* Media Query */
-@media screen and (max-width: 600px) {
+/* Media queries for popular devices */
+@media only screen and (max-width: 768px) {
     .experience__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        padding: 0 1rem; /* Ensure the container has padding */
-        width: 100%;
+        padding: 0;
     }
 
     .experience__container > div {
-        padding: 1.2rem 2rem; /* Reduced padding for smaller screens */
+        padding: 2rem;
+        }
     }
 
-    .experience__content {
-        grid-template-columns: 1fr; /* Single column for content */
-        row-gap: 1.5rem; /* Reduce gap between rows */
+    @media only screen and (max-width: 375px) {
+        .experience__container > div {
+            padding: 1rem;
+        }
     }
-}
+
+    @media only screen and (max-width: 480px) {
+        .experience__container > div {
+        padding: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .experience__container > div {
+        padding: 1.5rem;
+        }
+    }    @media only screen and (max-width: 375px) {
+        .experience__container > div {
+            padding: 1rem;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .experience__container {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 0;
+        }
+
+        .experience__container > div {
+            padding: 2rem;
+        }
+    }
