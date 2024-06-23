@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
 import CTA from './CTA';
-import HeaderSocial from './HeaderSocial';
 
 const Header = () => {
   const [opacity, setOpacity] = useState(1);
@@ -22,7 +21,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header>
+    <header id = 'header'>
       <div className="header__container">
         <h5>Hello, I'm</h5>
         <h1>Liam Jackson</h1>

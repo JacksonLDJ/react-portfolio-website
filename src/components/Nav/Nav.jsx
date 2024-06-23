@@ -9,7 +9,7 @@ import { MdFolderShared } from "react-icons/md";
 const Nav = () => {
   return (
     <nav>
-      <a href="#"><AiOutlineHome /></a>
+      <a href="#header"><AiOutlineHome /></a>
       <a href="#about"><BiUserCircle /></a>
       <a href="#experience"><BiBookOpen /></a>
       <a href="#contact"><BiMessageSquareDetail /></a>
