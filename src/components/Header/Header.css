@@ -34,6 +34,24 @@ Header {
     width: 25%;
 }
 
+/* Updated style for the scroll-down arrow */
+.scroll-down-arrow {
+    position: fixed;
+    bottom: 100px; /* Adjust the distance from the bottom as needed to clear the nav bar */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #64ffda; /* Use the same color as your header text */
+    cursor: pointer;
+    transition: opacity 0.6s ease-in-out; /* Adjust the duration as needed */
+  }
+  
+  .scroll-down-arrow.hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  
 
 /* Media Queries */
 

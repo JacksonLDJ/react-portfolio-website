@@ -1,14 +1,21 @@
+.contact__intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
 .container.contact__container {
-    width: 58%;
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12rem;
+    gap: 2rem;
+    padding: 0 1rem; /* Add horizontal padding to prevent content from touching edges */
 }
 
 .contact__options {
-    display: flex;
-    flex-direction: column;
-    gap: 1.2rem;
+    display: grid;
+    grid-template-columns: 1fr; /* Single column layout on smaller screens */
+    gap: 2rem;
+    background-color: var(--color-bg);
+    padding: 1rem; /* Add padding to the container */
 }
 
 .contact__option {
@@ -16,12 +23,10 @@
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
-    border: 2px solid;
-    border-color: var(--color-primary);
+    border: 2px solid #64ffda;
     transition: var(--transition);
     color: var(--color-primary);
 }
-
 
 .contact__option-icon {
     font-size: 1.5rem;
@@ -40,10 +45,10 @@ form {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -51,5 +56,18 @@ input, textarea {
     border: 2px solid var(--color-primary);
     resize: none;
     color: var(--color-primary);
+}
 
+/* Media Query */
+
+@media screen and (min-width: 601px) {
+    .contact__options {
+        grid-template-columns: 1fr 1fr; /* Two columns layout for larger screens */
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact__intro{
+        padding-top: 30rem;
+    }
 }

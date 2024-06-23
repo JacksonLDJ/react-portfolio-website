@@ -5,8 +5,10 @@ import {AiOutlineCheckCircle} from 'react-icons/ai'
 const Experience = () => {
   return (
     <section id='experience'>
+      <div className='experience__intro'>
       <h5>What skills I Have</h5>
       <h2>My Experience</h2>
+      </div>
 
       <div className="container experience__container">
         <div className="experience__sysadmin">

@@ -1,52 +1,104 @@
-.experience__container{
+
+
+/* Container styles */
+
+.experience__intro {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 1rem; /* Add horizontal padding to ensure content doesn't touch edges */
 }
 
-
-.experience__container > div{
+/* Box styles */
+.experience__container > div {
     background: transparent;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
-    border: 2px solid var(--color-primary);
-    
+    border: 2px solid #64ffda;
 }
 
-.experience__container > div h3{
+/* Heading styles */
+.experience__container > div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);
 }
 
-.experience__content{
+/* Content styles */
+.experience__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 3rem;
 }
 
-.experience__details{
+/* Details styles */
+.experience__details {
     display: flex;
     gap: 1rem;
     color: var(--color-primary);
-    
 }
 
-.experience__details-icon{
+/* Details icon styles */
+.experience__details-icon {
     margin-top: 10px;
     color: var(--color-primary);
 }
 
-/*Media Query */
-
-@media screen and (max-width: 600px){
+/* Media queries for popular devices */
+@media only screen and (max-width: 768px) {
     .experience__container {
         grid-template-columns: 1fr;
         gap: 1rem;
-        align-items: center;
-        padding-right: 0;
-
+        padding: 0;
     }
 
-}
+    .experience__container > div {
+        padding: 2rem;
+        }
+    }
+
+    @media only screen and (max-width: 375px) {
+        .experience__container > div {
+            padding: 1rem;
+        }
+    }
+
+    @media only screen and (max-width: 480px) {
+        .experience__container > div {
+        padding: 1.5rem;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .experience__container > div {
+        padding: 1.5rem;
+        }
+    }    @media only screen and (max-width: 375px) {
+        .experience__container > div {
+            padding: 1rem;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .experience__container {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+            padding: 0;
+        }
+
+        .experience__container > div {
+            padding: 2rem;
+        }
+    }
+
+
+    @media screen and (max-width: 1024px) {
+        .experience__intro{
+            padding-top: 25rem;
+        }
+    }
