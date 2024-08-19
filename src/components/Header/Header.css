@@ -1,6 +1,6 @@
 Header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 1rem;
     overflow: hidden;
     background-color: var(--color-bg);
     color: var(--color-primary)

@@ -23,18 +23,18 @@ const About = () => {
         <article className='about__card'>
           <FaScroll className='about__icon' />
           <h5>Education</h5>
-          <small>Foundation Degree/Studying for BSc in Cybersecurity</small>
+          <small>Studying for a degree in DTS: Cybersecurity at the University of Bolton.</small>
         </article>
         
         <article className='about__card'>
           <BiBookOpen className='about__icon' />
-          <h5>Ready to Learn</h5>
-          <small>Love to learn!</small>
+          <h5>Extra Studying</h5>
+          <small> Studying for a certifcation for CISCO's CyberOps and COMP TIA Sec+</small>
         </article>
         </div>
         
 
-      <p>Hello there! My name is Liam Jackson, I'm currently working full-time as a Senior ICT Technician at a Secondary School whilst studying for a degree in Cybersecurity through the Degree Apprenticeship scheme! This website aims to act primarily as a portfolio website of projects completed during my degree, but also personal projects I aim to complete in my own time. The website itself aims to demonstrate my ability to create a website using React, JSX, CSS and HTML. I aim to develop this website further to implemement cybersecurity ideas and theories to secure the website. This is ultiamtely a work in process and whilst live, it is subject to change! Thanks for taking the time to look over my website!  </p>
+      <p>Hi there! My name is Liam Jackson and I'm currently employed full-time as a Senior ICT Technician at Saint Aidan's Church of Highschool. Whilst working full time I’m also studying full time for a Digital and Technology Solutions: Cybersecurity degree with the University of Bolton. I’m also studying to get Certification as a CISCO Ops Associate and also get the COMPA TIA Sec+ certification. This website aims to act as a portfolio website and a means to introduce myself and has been built within React. As I develop my skills and gain additional qualification, this website is subject to change.</p>
         
       </div>
       </div>
