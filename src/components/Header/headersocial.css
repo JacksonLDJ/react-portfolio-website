@@ -1,8 +1,14 @@
 .header__socials-wrapper {
     width: 100%; /* Ensure the wrapper takes the full width of the viewport */
-    background-color: #0a192f; /* Set background color */
+    background-color: var(--color-bg); /* Set background color */
+    height: 100%;
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-bg);
+  }
 .header__socials {
     display: flex;
     gap: 1rem;
