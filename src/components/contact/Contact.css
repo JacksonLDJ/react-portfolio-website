@@ -72,3 +72,8 @@ textarea {
     }
 }
 
+@media screen and (max-width: 767px) {
+    .contact__intro{
+        padding-top: 40rem;
+    }
+}

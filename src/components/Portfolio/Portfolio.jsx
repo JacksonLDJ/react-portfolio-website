@@ -9,9 +9,9 @@ const Portfolio = () => {
       link: "https://github.com/yourusername/project-one"
     },
     {
-      title: "Project Two",
-      description: "Description of Project Two.",
-      link: "https://github.com/yourusername/project-two"
+      title: "Univeristy of Bolton Synoptic Project (Dissertation)",
+      description: "This is my final year project for my degree and is the same as a dissertation. During this project I will complete a full security audit of my employer, taking everything that I have learned from my degree and applying it to a real world scenario.",
+      link: ""
     },
     // Add more projects as needed
   ];
@@ -20,12 +20,12 @@ const Portfolio = () => {
     <section id='portfolio'>
       <div className='portfolio__intro'>
       <h5>Take a look at</h5>
-      <h2>My Portfolio</h2>
+      <h2>My Projects</h2>
       </div>
 
       <div className="container portfolio__container">
         <div className='portfolio__content'>
-          <p>As I develop projects for my degree, I will add to this section of the website. My current projects include:</p>
+          <p>This section aims to cover the development of my Synotpic project (dissertation) that I will complete during the final year of my degree but also any software development projects I complete.</p>
           
           <ul>
             {projects.map((project, index) => (

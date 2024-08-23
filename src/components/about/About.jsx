@@ -17,7 +17,7 @@ const About = () => {
         <article className='about__card'>
           <TbAward className='about__icon' />
           <h5>Experience</h5>
-          <small>10 Years Working Experience</small>
+          <small>10 Years of IT Working Experience</small>
         </article>
         
         <article className='about__card'>
@@ -34,7 +34,7 @@ const About = () => {
         </div>
         
 
-      <p>Hi there! My name is Liam Jackson and I'm currently employed full-time as a Senior ICT Technician at Saint Aidan's Church of Highschool. Whilst working full time I’m also studying full time for a Digital and Technology Solutions: Cybersecurity degree with the University of Bolton. I’m also studying to get Certification as a CISCO Ops Associate and also get the COMPA TIA Sec+ certification. This website aims to act as a portfolio website and a means to introduce myself and has been built within React. As I develop my skills and gain additional qualification, this website is subject to change.</p>
+      <p>Hi there! My name is Liam Jackson and I'm currently employed full-time as a Senior ICT Technician at Saint Aidan's Church of Highschool. Whilst working full time I’m also studying full time for a Digital and Technology Solutions: Cybersecurity degree with the University of Bolton. I’m also studying to get Certification as a CISCO Ops Associate and also get the COMPA TIA Sec+ certification. I've built this React website myself as a means of introducing myself, my expeirence any projects I've developed over my Apprenticeship. As I develop my skills and gain additional qualification, this website is subject to change.</p>
         
       </div>
       </div>
