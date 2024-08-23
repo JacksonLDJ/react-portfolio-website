@@ -9,7 +9,7 @@ const Portfolio = () => {
       link: "https://github.com/yourusername/project-one"
     },
     {
-      title: "Univeristy of Bolton Synoptic Project (Dissertation)",
+      title: "University of Bolton Synoptic Project (Dissertation)",
       description: "This is my final year project for my degree and is the same as a dissertation. During this project I will complete a full security audit of my employer, taking everything that I have learned from my degree and applying it to a real world scenario.",
       link: ""
     },

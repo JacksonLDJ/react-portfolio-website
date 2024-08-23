@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaInstagramSquare } from 'react-icons/fa'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import './headersocial.css'
 
 const HeaderSocial = () => {
