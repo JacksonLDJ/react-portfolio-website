@@ -1,0 +1,81 @@
+/* Blog */
+/* Template Defaults */
+.blog-template-common {
+    padding-bottom: 2rem;
+}
+
+.blog-template-basic {
+    p {
+        color: red;
+        text-align: left;
+    }
+
+    h2 {
+        color: white;
+    }
+}
+
+.blog-template-right-align {
+    p {
+        color: white;
+        text-align: right;
+    }
+
+    h2 {
+        color: white;
+        text-align: right;
+    }
+}
+
+/* Other */
+.blog-btn {
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+}
+
+.blog-post {
+    width: 1000px; 
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding: 50px 4rem;
+}
+
+.blog-home {
+    width: 1000px; 
+    margin: 0 auto; 
+    padding-top: 50px;
+    padding: 50px 4rem;
+
+    p {
+        color: white;
+        text-align: left;
+    }
+}
+
+.blog-listing {
+    padding: 2rem 2rem;
+    margin: 1rem 0;
+    border: 2px solid red;
+}
+
+
+
+
+/* Blog Modifier Classes */
+/* Blog Text Layouts */
+.blog-right h2, p {
+    text-align: right;
+}
+
+.blog-center h2, p {
+    text-align: center;
+}
+
+/* Text Colours */
+.blog-title-red h2 {
+    color: red;
+}
+
+.blog-content-red p {
+    color: red;
+}

@@ -146,13 +146,3 @@ img {
     width: 100%;
     object-fit: cover;
 }
-
-/* Blog */
-.blog-right p {
-    text-align: right;
-}
-
-.blog-right h2 {
-    text-align: right;
-    font-weight: bolder;
-}
