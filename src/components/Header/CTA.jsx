@@ -1,12 +1,15 @@
 // CTA.jsx
 import React from 'react';
-import { Link } from 'react-scroll';
+import { useNavigate } from 'react-router-dom';
 
 const CTA = () => {
+  const navigate = useNavigate();
+
   return (
     <div className='cta'>
       <btn download className="btn">Download CV</btn>
       <a href="mailto:me@liamjackson.co.uk" className='btn'>Email Me</a>
+      <button onClick={() => navigate("/blog") } className="btn">Blog Posts</button>
     </div>
   );
 };

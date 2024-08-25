@@ -122,7 +122,10 @@ a:hover {
     border-radius: 0.4rem;
     cursor: pointer;
     border: 1px solid #64ffda;
-    transition: var(--transition)
+    transition: var(--transition);
+    background: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
 
 }
 
@@ -142,4 +145,14 @@ img {
     display: block;
     width: 100%;
     object-fit: cover;
+}
+
+/* Blog */
+.blog-right p {
+    text-align: right;
+}
+
+.blog-right h2 {
+    text-align: right;
+    font-weight: bolder;
 }

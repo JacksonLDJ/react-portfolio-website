@@ -12,7 +12,7 @@ const Nav = () => {
     var htmlElement = document.getElementById(elementId);
     if (!htmlElement) return;
 
-    var topOffset = 50;
+    // var topOffset = 50;
     var elementPosition = htmlElement.getBoundingClientRect().top + window.scrollY;
     console.log(elementPosition);
     window.scrollTo({
