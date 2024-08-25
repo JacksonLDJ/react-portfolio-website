@@ -60,10 +60,10 @@ const BlogHome = (props) => {
   return (
     <div className="blog-home">
       <button
-        className={cn("btn", "blog-btn")}
+        className={cn("btn", "blog-home-btn")}
         onClick={() => navigate("/")}
       >
-        Back
+        Back To Main Website
       </button>
       <h1>Blog Posts</h1>
       {/*Each Post clicky thing*/}

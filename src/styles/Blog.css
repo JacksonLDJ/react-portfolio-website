@@ -6,7 +6,7 @@
 
 .blog-template-basic {
     p {
-        color: red;
+        color: white;
         text-align: left;
     }
 
@@ -33,16 +33,28 @@
     min-width: auto !important;
 }
 
+.blog-home-btn {
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+
+
+}
+
 .blog-post {
-    width: 1000px; 
-    margin: 0 auto; 
+    width: 1000px;
+    margin: 0 auto;
     padding-top: 50px;
     padding: 50px 4rem;
 }
 
 .blog-home {
-    width: 1000px; 
-    margin: 0 auto; 
+    width: 1000px;
+    margin: 0 auto;
     padding-top: 50px;
     padding: 50px 4rem;
 
@@ -55,7 +67,15 @@
 .blog-listing {
     padding: 2rem 2rem;
     margin: 1rem 0;
-    border: 2px solid red;
+    border: 2px solid #64ffda;
+    border-radius: 2rem;
+}
+
+.blog-text {
+    p {
+        color: white;
+        text-align: left;
+    }
 }
 
 
@@ -63,19 +83,43 @@
 
 /* Blog Modifier Classes */
 /* Blog Text Layouts */
-.blog-right h2, p {
+.blog-right h2,
+p {
     text-align: right;
 }
 
-.blog-center h2, p {
+.blog-center h2,
+p {
     text-align: center;
 }
 
 /* Text Colours */
-.blog-title-red h2 {
-    color: red;
-}
 
-.blog-content-red p {
-    color: red;
+
+/* Media Queries */
+
+@media screen and (max-width: 601px) {
+    .blog-post {
+        width: 30rem;
+        padding-right: 8rem;
+    }
+
+    .blog-home {
+        width: 30rem;
+        padding-right: 7rem;
+        margin: 0 auto;
+    }
+    
+    h1 {
+        padding-top: 5rem;
+        text-align: center;
+    }
+
+    .blog-home-btn{
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
 }

@@ -14,7 +14,7 @@ export const posts = [
         // Title can be empty
         title: "Introduction",
         // Img url can be empty
-        img: "https://cdn.britannica.com/02/152302-050-1A984FCB/African-savanna-elephant.jpg",
+        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*OohqW5DGh9CQS4hLY5FXzA.png",
         // This overrides class names with custom ones
         className: "blog-title-red",
         // Actual Content
@@ -24,7 +24,7 @@ export const posts = [
       {
         template: "align-right",
         title: "",
-        className: "blog-title-red",
+        className: "blog-text",
         content:
           "This is officially the first blog post on the website! The blog posts will be used to document my journey through university, the things that I learn and the project that I complete. This website being one of them!",
       },
@@ -41,7 +41,7 @@ export const posts = [
           "This is the introduction to my university work. In this section, I will provide an overview of the project and its objectives.",
       },
       {
-        template: "align-right",
+        template: "basic",
         title: "About the Project",
         content:
           "This is the introduction to my university work. In this section, I will provide an overview of the project and its objectives.",
