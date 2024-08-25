@@ -6,16 +6,16 @@ export const posts = [
       {
         template: "basic",
         title: "Introduction",
-        className: "blog-right",
+        className: "blog-basic",
         content:
-          "This is the introduction to my university work. In this section, I will provide an overview of the project and its objectives.lajhfkl daslkdhjalsdja s laksjdlaksjd lkjasldkjasldjalskdj asld aslkjdalksjdlakjsdl lkajsldkjaslkdj alksj dlaskj dhsajkdhs ",
+          "Hello world! ",
       },
       {
-        template: "align-right",
-        title: "About the Project",
+        template: "blog-basic",
+        title: "The first blog post",
         className: "",
         content:
-          "The project starte dblah blah",
+          "This is officially the first blog post on the website! The blog posts will be used to document my journey through university, the things that I learn and the project that I complete. This website being one of them!",
       },
     ],
   },
