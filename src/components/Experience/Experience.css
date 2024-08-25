@@ -1,22 +1,22 @@
-
-
 /* Container styles */
 
 .experience__intro {
     text-align: center;
     margin-bottom: 2rem;
 }
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     margin: 0 auto;
     max-width: 100%;
-    padding: 0 1rem; /* Add horizontal padding to ensure content doesn't touch edges */
+    padding: 0 1rem;
+    /* Add horizontal padding to ensure content doesn't touch edges */
 }
 
 /* Box styles */
-.experience__container > div {
+.experience__container>div {
     background: transparent;
     padding: 2.4rem 5rem;
     border-radius: 2rem;
@@ -24,7 +24,7 @@
 }
 
 /* Heading styles */
-.experience__container > div h3 {
+.experience__container>div h3 {
     text-align: center;
     margin-bottom: 2rem;
     color: var(--color-primary);

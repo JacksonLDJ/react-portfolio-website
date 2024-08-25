@@ -44,7 +44,8 @@
 
 .portfolio__item-content p {
   margin: 0;
-  color: #64ffda;
+  color: var(--color-primary);
+  text-align: left;
 }
 
 /* Media queries */

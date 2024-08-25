@@ -27,7 +27,7 @@ const Nav = () => {
       <div onClick={() => scrollTo("about")}><BiUserCircle /></div>
       <div onClick={() => scrollTo("experience")}><BiBookOpen /></div>
       <div onClick={() => scrollTo("contact")}><BiMessageSquareDetail /></div>
-      <div onClick={() => scrollTo("portfolio")}>< MdFolderShared /></div>
+      <div onClick={() => scrollTo("blog-home")}>< MdFolderShared /></div>
       
     </nav>
   )
