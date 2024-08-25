@@ -7,13 +7,27 @@ import {BiMessageSquareDetail} from 'react-icons/bi'
 import { MdFolderShared } from "react-icons/md";
 
 const Nav = () => {
+
+  function scrollTo(elementId) {
+    var htmlElement = document.getElementById(elementId);
+    if (!htmlElement) return;
+
+    var topOffset = 50;
+    var elementPosition = htmlElement.getBoundingClientRect().top + window.scrollY;
+    console.log(elementPosition);
+    window.scrollTo({
+      top: elementPosition,
+      behavior: 'smooth',
+    });
+  }
+
   return (
     <nav>
-      <a href="#header"><AiOutlineHome /></a>
-      <a href="#about"><BiUserCircle /></a>
-      <a href="#experience"><BiBookOpen /></a>
-      <a href="#contact"><BiMessageSquareDetail /></a>
-      <a href='#portfolio'>< MdFolderShared /></a>
+      <div onClick={() => scrollTo("root")}><AiOutlineHome /></div>
+      <div onClick={() => scrollTo("about")}><BiUserCircle /></div>
+      <div onClick={() => scrollTo("experience")}><BiBookOpen /></div>
+      <div onClick={() => scrollTo("contact")}><BiMessageSquareDetail /></div>
+      <div onClick={() => scrollTo("portfolio")}>< MdFolderShared /></div>
       
     </nav>
   )

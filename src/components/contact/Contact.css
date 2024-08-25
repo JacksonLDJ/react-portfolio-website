@@ -65,15 +65,3 @@ textarea {
         grid-template-columns: 1fr 1fr; /* Two columns layout for larger screens */
     }
 }
-
-@media screen and (max-width: 1024px) {
-    .contact__intro{
-        padding-top: 30rem;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .contact__intro{
-        padding-top: 40rem;
-    }
-}

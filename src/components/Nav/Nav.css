@@ -2,7 +2,7 @@ nav {
     width: max-content;
     display: block;
     padding: 0.7rem, 1.7rem;
-    z-index: 2;
+    z-index: 5;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
@@ -15,16 +15,25 @@ nav {
     border: 2px solid #64ffda
 }
 
-nav a {
+nav div {
     background: transparent;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
     font-size: 1.1rem;
+    color: var(--color-primary);
+    cursor: pointer;
 }
 
-nav a:hover{
+nav div:hover{
     background: #233554;
     color: #64ffda;
     border-color: #64ffda; 
+}
+
+@media screen and (max-width: 601px) {
+    nav {
+        display: none;
+    }
+    
 }
