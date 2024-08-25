@@ -51,61 +51,20 @@
 }
 
 /* Media queries for popular devices */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 601px) {
     .experience__container {
         grid-template-columns: 1fr;
         gap: 1rem;
         padding: 0;
     }
 
-    .experience__container > div {
+    .experience__container>div {
         padding: 2rem;
-        }
     }
+}
 
-    @media only screen and (max-width: 375px) {
-        .experience__container > div {
-            padding: 1rem;
-        }
-    }
-
-    @media only screen and (max-width: 480px) {
-        .experience__container > div {
-        padding: 1.5rem;
-        }
-    }
-
-    @media only screen and (max-width: 768px) {
-        .experience__container > div {
-        padding: 1.5rem;
-        }
-    }    @media only screen and (max-width: 375px) {
-        .experience__container > div {
-            padding: 1rem;
-        }
-    }
-    @media only screen and (max-width: 768px) {
-        .experience__container {
-            grid-template-columns: 1fr;
-            gap: 1rem;
-            padding: 0;
-        }
-
-        .experience__container > div {
-            padding: 2rem;
-        }
-    }
-
-
-    @media screen and (max-width: 1024px) {
-        .experience__intro{
-            padding-top: 25rem;
-        }
-    }
-
-    /* Media Query for iPhones */
-@media screen and (max-width: 767px) and (min-width: 320px) {
+@media only screen and (max-width: 1200px) {
     .experience__container {
-        padding-bottom: 10rem; /* Adjust the value as needed */
+        grid-template-columns: 1fr;
     }
 }

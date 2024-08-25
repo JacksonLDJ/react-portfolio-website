@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <div className='portfolio__intro'>
-      <h5>Take a look at</h5>
+      <h5 className="color-primary">Take a look at</h5>
       <h2>My Projects</h2>
       </div>
 
