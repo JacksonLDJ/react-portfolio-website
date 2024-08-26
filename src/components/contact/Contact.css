@@ -4,10 +4,11 @@
 }
 
 
-.container.contact__container {
+.contact__container {
     display: grid;
     gap: 2rem;
     padding: 0 1rem; /* Add horizontal padding to prevent content from touching edges */
+    max-height: 20rem;
 }
 
 .contact__options {

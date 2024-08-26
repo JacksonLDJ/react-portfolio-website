@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import { cn } from '../../utils/cn';
 import { posts } from '../../data/posts';
 import { useNavigate } from "react-router-dom";
@@ -16,7 +16,7 @@ const BlogHome = () => {
 
     return ( 
     <section id="blog-home" className="container">
-        <h1>Recent Blogs</h1>
+        <h1 className="blog-home-title">Recent Blogs</h1>
 
         {posts.slice(0,3).map((post, index) => (
         <div className="blog-listing" key={index}>
