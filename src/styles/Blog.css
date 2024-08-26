@@ -1,8 +1,6 @@
 /* Blog */
 /* Template Defaults */
-.blog-template-common {
-    padding-bottom: 2rem;
-}
+
 
 .blog-template-basic {
     p {
@@ -13,6 +11,8 @@
     h2 {
         color: white;
     }
+
+    
 }
 
 .blog-template-right-align {
@@ -56,7 +56,7 @@
     margin: 0 auto;
     padding-top: 50px;
     padding: 50px 4rem;
-    height: 100;
+    height: 100vh;
 }
 
 .blog-home {

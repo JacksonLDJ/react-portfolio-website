@@ -12,14 +12,14 @@ export const posts = [
         // This choose the template component
         template: "basic",
         // Title can be empty
-        title: "Introduction",
+        title: "My first blog post!",
         // Img url can be empty
         img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*OohqW5DGh9CQS4hLY5FXzA.png",
         // This overrides class names with custom ones
-        className: "blog-title-red",
+        className: "",
         // Actual Content
         content:
-          "Hello world! ",
+          "Hello world!"
       },
       {
         template: "align-right",

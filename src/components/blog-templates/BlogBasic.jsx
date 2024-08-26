@@ -11,7 +11,7 @@ export const BlogBasic = (props) => {
         <div key={props.index} className={cn("blog-template-common", "blog-template-basic", props.content.className)}>
             {/* This is an example of conditional rendering, the html is only rendered if an img field is provided */}
             {props.content.img && props.content.img !== "" && 
-                <img src={props.content.img} alt="elephant" />
+                <img src={props.content.img} alt="" />
             }
             <h2>{props.content.title}</h2>
             <p className="blog-content">{props.content.content}</p>
