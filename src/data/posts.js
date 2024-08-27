@@ -36,15 +36,15 @@ export const posts = [
     content: [
       {
         template: "basic",
-        title: "Introduction",
+        title: "My Final Year at University",
         content:
-          "What I've covered so far at University",
+          "",
       },
       {
         template: "basic",
-        title: "About the Project",
+        title: "",
         content:
-          "I'm currently in my my final Year of Unviersity and I'm working on my Synoptic Project which is essentially my dissertation! So far, these are the topics I've covered: \n\n• Security Fundamentals \n\n• Secure Systems \n\n• Programming for CyberSecurity \n\n• Programming and Scripting \n\n• Networks and Security \n\n• Business Software Developing \n\n\• Ethical Hacking and Digital Forensics \n\n Digital Forensics and Ethical Hacking was my latest module where we covered importance of preserving data for digital forensics purposes and the process of ethically hacking a system where-in we attacked a vulnerable host sin the Metasploit Framework tool in Kali Linux. ",
+          "I'm currently in my my final year of Unviersity and I'm working on my Synoptic Project which is essentially my dissertation! So far, these are the topics I've covered: \n\n• Security Fundamentals \n\n• Secure Systems \n\n• Programming for CyberSecurity \n\n• Programming and Scripting \n\n• Networks and Security \n\n• Business Software Developing \n\n\• Ethical Hacking and Digital Forensics \n\n Digital Forensics and Ethical Hacking was my latest module where we covered importance of preserving data for digital forensics purposes and the process of ethically hacking a system where-in we attacked a vulnerable host sin the Metasploit Framework tool in Kali ",
       },
     ],
   },
