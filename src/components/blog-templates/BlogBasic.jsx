@@ -1,5 +1,6 @@
 import React from "react";
 import { cn } from "../../utils/cn"
+import ReactMarkdown from "react-markdown";
 
 //If you want to create a new template copy all this code and add to a new file (named after the template)
 //Rename the export const ... to the same name as file e.g. BlogRightAlign
@@ -14,7 +15,7 @@ export const BlogBasic = (props) => {
                 <img src={props.content.img} alt="" />
             }
             <h2>{props.content.title}</h2>
-            <p className="blog-content">{props.content.content}</p>
+            <p className="blog-content"><ReactMarkdown>{props.content.content}</ReactMarkdown></p>
         </div>
     );
 }
