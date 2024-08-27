@@ -26,7 +26,7 @@ export const posts = [
         title: "",
         className: "blog-text",
         content:
-          "This is officially the first blog post on the website! The blog posts will be used to document my journey through university, the things that I learn and the project that I complete. This website being one of them!",
+          "This is officially the fir",
       },
     ],
   },
