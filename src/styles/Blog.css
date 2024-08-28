@@ -137,6 +137,7 @@ p {
     .blog-post {
         width: 25rem;
         padding-right: 8rem;
+        max-width: 30rem;
     }
 
     .blog-home {
