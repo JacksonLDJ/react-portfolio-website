@@ -5,6 +5,7 @@
 .blog-template-basic {
     p {
         color: white;
+        text-align: left;
     }
 
     h2 {
@@ -108,10 +109,11 @@ p {
 
 /* Media Queries */
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 601px)  {
     .blog-post {
         width: 25rem;
         padding-right: 8rem;
+        color:white;
     }
 
     .blog-home {
@@ -127,6 +129,5 @@ p {
         left: 50%;
         transform: translateX(-50%);
     }
-        
 
 }
