@@ -109,7 +109,7 @@ p {
 
 /* Media Queries */
 
-@media screen and (max-width: 606px) {
+@media screen and (max-width: 601px) {
     .blog-post {
         width: 30rem;
         padding-right: 8rem;
@@ -131,4 +131,25 @@ p {
 
 
     
+}
+
+@media scren and (max-width: 850px){
+    .blog-post {
+        width: 30rem;
+        padding-right: 8rem;
+    }
+
+    .blog-home {
+        width: 30rem;
+        padding-right: 7rem;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .blog-home-btn{
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
