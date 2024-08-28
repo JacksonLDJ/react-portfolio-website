@@ -129,6 +129,19 @@ p {
         transform: translateX(-50%);
     }
 
+    .blog-template-basic {
+        p {
+            color: white;
+            text-align: left;
+        }
+    
+        h2 {
+            color: white;
+        }
+    
+        
+    }
+
 
     
 }
@@ -154,10 +167,16 @@ p {
         transform: translateX(-50%);
     }
 
-    .blog-text {
+    .blog-template-basic {
         p {
+            color: white;
             text-align: left;
+        }
+    
+        h2 {
             color: white;
         }
+    
+        
     }
 }
