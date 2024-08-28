@@ -129,22 +129,16 @@ p {
         transform: translateX(-50%);
     }
 
-    .blog-template-basic {
+    .blog-text {
         p {
             color: white;
             text-align: left;
         }
-    
-        h2 {
-            color: white;
-        }
-    
+        
+    }
         
     }
 
-
-    
-}
 
 @media scren and (max-width: 850px){
     .blog-post {
@@ -167,11 +161,4 @@ p {
         transform: translateX(-50%);
     }
 
-    .blog-text {
-        p {
-            color: white;
-            text-align: left;
-        }
-        
-    }
 }
