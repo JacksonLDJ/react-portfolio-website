@@ -80,6 +80,13 @@
     color: white;
 }
 
+.blog-text {
+    p {
+        color: white;
+        text-align: left;
+    }
+}
+
 
 
 
@@ -121,5 +128,46 @@ p {
         left: 50%;
         transform: translateX(-50%);
     }
-  
+
+    .blog-text {
+        p {
+            color: white;
+            text-align: left;
+        }
+        
+    }
+        
+    }
+
+
+
+
+@media scren and (max-width: 390px){
+    .blog-post {
+        width: 25rem;
+        padding-right: 8rem;
+        max-width: 30rem;
+    }
+
+    .blog-home {
+        width: 30rem;
+        padding-right: 7rem;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .blog-home-btn{
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .blog-text {
+        p {
+            color: white;
+            text-align: left;
+        }
+        
+    }
 }
