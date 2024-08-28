@@ -61,7 +61,7 @@ Header {
     pointer-events: none;
 }
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 606px) {
     .cta {
         flex-direction: column;
         align-items: center;
@@ -74,7 +74,7 @@ Header {
 
 /* Media Queries */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 606px) {
     header {
         height: 100vh;
     }
