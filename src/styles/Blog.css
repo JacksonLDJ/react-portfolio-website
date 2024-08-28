@@ -111,12 +111,12 @@ p {
 
 @media screen and (max-width: 601px) {
     .blog-post {
-        width: 30rem;
+        width: var(--container-width-lg);
         padding-right: 8rem;
     }
 
     .blog-home {
-        width: 30rem;
+        width: var(--container-width-lg);
         padding-right: 7rem;
         margin: 0 auto;
         height: 100vh;
@@ -135,12 +135,12 @@ p {
 
 @media scren and (max-width: 850px){
     .blog-post {
-        width: 20rem;
+        width: var(--container-width-lg);
         padding-right: 8rem;
     }
 
     .blog-home {
-        width: 20rem;
+        width: 30rem;
         padding-right: 7rem;
         margin: 0 auto;
         height: 100vh;
