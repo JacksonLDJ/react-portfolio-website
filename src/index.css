@@ -67,7 +67,7 @@ section {
     }
 }
 
-h1, 
+ 
 h2, 
 h3, 
 h4,
@@ -75,6 +75,11 @@ h5 {
     font-weight: 500;
     color: #64ffda;
     
+}
+
+h1{
+    font-weight: 500;
+    color: white;
 }
 
 .color-primary {
