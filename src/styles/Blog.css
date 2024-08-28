@@ -8,10 +8,6 @@
         text-align: left;
     }
 
-    h2 {
-        color: white;
-    }
-
     
 }
 
@@ -112,12 +108,13 @@ p {
 @media screen and (max-width: 601px)  {
     .blog-post {
         width: 25rem;
-        padding-right: 8rem;
+        padding-right: 3rem;
         color:white;
+        max-width: fit-content;
     }
 
     .blog-home {
-        width: 25rem;
+        width: 24rem;
         padding-right: 7rem;
         margin: 0 auto;
         height: 100vh;
