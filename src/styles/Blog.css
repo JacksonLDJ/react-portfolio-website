@@ -140,9 +140,7 @@ p {
     }
 
 
-
-
-@media scren and (max-width: 390px){
+@media scren and (max-width: 850px){
     .blog-post {
         width: 25rem;
         padding-right: 8rem;
@@ -163,11 +161,4 @@ p {
         transform: translateX(-50%);
     }
 
-    .blog-text {
-        p {
-            color: white;
-            text-align: left;
-        }
-        
-    }
 }
