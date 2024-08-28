@@ -118,11 +118,11 @@ p {
         padding-right: 7rem;
         margin: 0 auto;
         height: 100vh;
+        padding-top: 5rem;
     }
 
     .blog-home-btn{
-        position: relative;
-        top: 0;
+        top: 1;
         left: 50%;
         transform: translateX(-50%);
     }
