@@ -152,4 +152,11 @@ p {
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .blog-text {
+        p {
+            text-align: left;
+            color: white;
+        }
+    }
 }
