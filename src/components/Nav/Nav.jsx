@@ -12,7 +12,7 @@ const Nav = () => {
     var htmlElement = document.getElementById(elementId);
     if (!htmlElement) return;
 
-    var topOffset = 50;
+    // var topOffset = 50;
     var elementPosition = htmlElement.getBoundingClientRect().top + window.scrollY;
     console.log(elementPosition);
     window.scrollTo({
@@ -27,7 +27,7 @@ const Nav = () => {
       <div onClick={() => scrollTo("about")}><BiUserCircle /></div>
       <div onClick={() => scrollTo("experience")}><BiBookOpen /></div>
       <div onClick={() => scrollTo("contact")}><BiMessageSquareDetail /></div>
-      <div onClick={() => scrollTo("portfolio")}>< MdFolderShared /></div>
+      <div onClick={() => scrollTo("blog-home")}>< MdFolderShared /></div>
       
     </nav>
   )

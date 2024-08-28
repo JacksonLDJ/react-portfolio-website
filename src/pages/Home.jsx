@@ -4,7 +4,7 @@ import Nav from '../components/Nav/Nav'
 import Contact from '../components/contact/Contact'
 import Experience from '../components/Experience/Experience'
 import About from '../components/about/About'
-import Portfolio from '../components/Portfolio/Portfolio'
+import BlogHome  from '../components/blog-home/BlogHome'
 import HeaderSocial from '../components/Header/HeaderSocial'
 
 
@@ -17,7 +17,7 @@ export const Home = () => {
         <About />
         <Experience />
         <Contact />
-        <Portfolio />
+        <BlogHome />
     </>
   )
 }

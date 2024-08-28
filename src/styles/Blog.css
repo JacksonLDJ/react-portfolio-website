@@ -1,0 +1,134 @@
+/* Blog */
+/* Template Defaults */
+
+
+.blog-template-basic {
+    p {
+        color: white;
+        text-align: left;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    
+}
+
+.blog-template-right-align {
+    p {
+        color: white;
+        text-align: right;
+    }
+
+    h2 {
+        color: white;
+        text-align: right;
+    }
+}
+
+/* Other */
+.blog-btn {
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+}
+
+.blog-home-btn {
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: .5rem 2rem !important;
+    min-width: auto !important;
+
+
+}
+
+.blog-home-title {
+    padding-top: 5rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.blog-post {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding: 50px 4rem;
+    height: 100vh;
+}
+
+.blog-home {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding: 50px 4rem;
+    height: 100vh;
+
+    p {
+        color: white;
+        text-align: left;
+    }
+}
+
+.blog-listing {
+    padding: 2rem 2rem;
+    margin: 1rem 0;
+    border: 2px solid #64ffda;
+    border-radius: 2rem;
+    color: white;
+}
+
+.blog-text {
+    p {
+        color: white;
+        text-align: left;
+    }
+}
+
+
+
+
+/* Blog Modifier Classes */
+/* Blog Text Layouts */
+.blog-right h2,
+p {
+    text-align: right;
+}
+
+.blog-center h2,
+p {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Text Colours */
+
+
+/* Media Queries */
+
+@media screen and (max-width: 601px) {
+    .blog-post {
+        width: 30rem;
+        padding-right: 8rem;
+    }
+
+    .blog-home {
+        width: 30rem;
+        padding-right: 7rem;
+        margin: 0 auto;
+        height: 100vh;
+    }
+
+    .blog-home-btn{
+        position: relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+
+    
+}

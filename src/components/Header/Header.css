@@ -11,6 +11,10 @@ Header {
     height: 100%;
     position: relative;
     padding: 0 1rem;
+
+    h1{
+        color: white;
+    }
 }
 
 .cta {
