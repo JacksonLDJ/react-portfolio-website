@@ -5,7 +5,6 @@
 .blog-template-basic {
     p {
         color: white;
-        text-align: left;
     }
 
     h2 {
@@ -130,9 +129,4 @@ p {
     }
         
 
-}
-
-
-.p{
-    color: white;
 }
