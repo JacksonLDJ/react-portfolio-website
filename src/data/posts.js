@@ -22,7 +22,7 @@ export const posts = [
           "Hello World!"
       },
       {
-        template: "align-right",
+        template: "basic",
         title: "",
         className: "blog-text",
         content:
