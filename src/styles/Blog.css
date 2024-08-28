@@ -135,12 +135,12 @@ p {
 
 @media scren and (max-width: 850px){
     .blog-post {
-        width: 30rem;
+        width: 20rem;
         padding-right: 8rem;
     }
 
     .blog-home {
-        width: 30rem;
+        width: 20rem;
         padding-right: 7rem;
         margin: 0 auto;
         height: 100vh;
