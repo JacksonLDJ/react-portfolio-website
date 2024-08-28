@@ -109,7 +109,7 @@ p {
 
 /* Media Queries */
 
-@media screen and (max-width: 601px) {
+@media screen and (max-width: 606px) {
     .blog-post {
         width: 30rem;
         padding-right: 8rem;
