@@ -16,31 +16,37 @@ const Experience = () => {
           <div className="experience__content">
             <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}}/>
             <div>
-            <h4 >Windows Sever 2021</h4>
+            <h4 >Windows Server Management</h4>
             <small >Experienced</small>
             </div>
             </article>
-            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}} />
+            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}}/>
             <div>
-            <h4 >Windows Sever 2022</h4>
+            <h4 >Virtualisation - Hyper-V</h4>
             <small >Experienced</small>
             </div>
             </article>
-            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}} />
+            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}}/>
             <div>
-            <h4 >DHCP, DNS</h4>
+            <h4 >Backup & Recovery</h4>
             <small >Experienced</small>
             </div>
             </article>
-            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}} />
+            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "green"}}/>
             <div>
-            <h4 >IPv4 Networking</h4>
+            <h4 >Hardware Management</h4>
             <small >Experienced</small>
             </div>
             </article>
-            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "yellow"}} />
+            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "yellow"}}/>
             <div>
-            <h4 >Kali Linux</h4>
+            <h4 >Network & End Point Security</h4>
+            <small >Intermediate</small>
+            </div>
+            </article>
+            <article className='experience__details'><AiOutlineCheckCircle className='experience__details-icon' style={{ color: "yellow"}}/>
+            <div>
+            <h4 >Vulnerability Management</h4>
             <small >Intermediate</small>
             </div>
             </article>
