@@ -21,11 +21,9 @@
     --transition: all 400ms ease;
 
     --container-width-lg: 75%;
-    --container-width-md: 86%;
-    --container-width-sm: 90%;
 
     font-family: 'Poppins', sans-serif;
-    line-height: 1.7;
+    line-height: 1.6;
     
 }
 
@@ -67,7 +65,18 @@ section {
     }
 }
 
-h1, 
+@media screen and (min-width: 850px) {
+    .container{
+        width: var(--container-width-lg);
+        margin: 0 auto;
+    }
+
+    section {
+        min-height: 100vh;
+    }
+}
+
+ 
 h2, 
 h3, 
 h4,
@@ -75,6 +84,11 @@ h5 {
     font-weight: 500;
     color: #64ffda;
     
+}
+
+h1{
+    font-weight: 500;
+    color: white;
 }
 
 .color-primary {
@@ -90,7 +104,6 @@ section > h2, section > h5{
 section > h2{
     color: #64ffda;
     margin-bottom: 3rem;
-    border-bottom-color: var(--color-primary)
 }
 
 .text-light{
@@ -103,7 +116,6 @@ section > h2{
 
 a {
     color: var(--color-primary);
-    transition: var(--transition)
 }
 
 a:hover {
