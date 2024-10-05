@@ -7,7 +7,6 @@ const CTA = () => {
 
   return (
     <div className='cta'>
-      <a href="/Website-CV.pdf" download className="btn">Download CV</a>
       <a href="mailto:me@liamjackson.co.uk" className='btn'>Email Me</a>
       <button onClick={() => navigate("/blog") } className="btn">Blog Posts</button>
     </div>
