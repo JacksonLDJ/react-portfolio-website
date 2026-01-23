@@ -18,26 +18,26 @@ const About = () => {
             <article className='about__card'>
               <TbAward className='about__icon' />
               <h5>Experience</h5>
-              <small>10 Years of IT Working Experience</small>
+              <small>Junior Security Consultant and Penetration Tester</small>
             </article>
 
             <article className='about__card'>
               <FaScroll className='about__icon' />
               <h5>Education</h5>
-              <small>Studying for a degree in DTS: Cybersecurity at the University of Bolton.</small>
+              <small>1st Class BSc DTS: Cybersecurity</small>
             </article>
 
             <article className='about__card'>
               <BiBookOpen className='about__icon' />
-              <h5>Extra Studying</h5>
-              <small> Studying for a certifcation for CISCO's CyberOps and COMP TIA Sec+</small>
+              <h5>Certifications</h5>
+              <small> Cyber Essentials Basics and IASME Cyber Assurance Assessor </small>
             </article>
           </div>
 
 
           <p>
             <ReactMarkdown>
-              {"*Hi* there! My name is Liam Jackson and I'm currently employed as a Senior ICT Technician whilst studying for a Digital and Technology Solutions: Cybersecurity Degree! I'm also studying for CISCO's CyberOps Associate and COMP TIA's Sec+ qualifications which I aim to complete before I finish my final year of University. \n\nI've been working in IT for over 10 years with experience in SysAdmin and CyberOps. I'm currently working on my Synoptic Project (dissertation) where I'm planning to conduct a full security audit and analysis of my current employers security. I'm using this website to document my final year of studying at the University of Bolton where I hope to attain a First Class Honours Degree in my Cybersecurity Degree Apprenticeship and as a portfolio website. Thanks for checking my website out!"}
+              {"*Hi* there! I’m Liam Jackson, a Junior Security Consultant and Penetration Tester. After 10 years working in IT Systems Administration, I made the move into cybersecurity after achieving a First Class degree in DTS: Cybersecurity from the University of Greater Manchester. This site acts as a portfolio to track my progress, projects, and learning as I continue developing my skills and becoming a better penetration tester. Please check out my blog posts to see what I'm up to! "}
             </ReactMarkdown>
           </p>
 

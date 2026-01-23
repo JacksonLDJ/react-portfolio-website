@@ -43,7 +43,6 @@ html{
 section {
     color: var(--color-color-primary);
     background-color: var(--color-bg);
-    padding: 4rem 0;
 }
 
 @media screen and (max-width: 601px) {
@@ -72,7 +71,7 @@ section {
     }
 
     section {
-        min-height: 100vh;
+        min-height: 30vh;
     }
 }
 

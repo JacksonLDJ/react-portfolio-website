@@ -25,12 +25,8 @@ const Header = () => {
       <div className="header__container">
         <h5>Hello, I'm</h5>
         <h1>Liam Jackson</h1>
-        <h5>Senior ICT Technician and Cybersecurity University Student</h5>
+        <h5>Junior Security Consultant and Penetration Tester</h5>
         <CTA />
-      </div>
-
-      <div className="scroll-down-arrow" style={{ opacity }}>
-        <span>↓</span>
       </div>
     </header>
   );

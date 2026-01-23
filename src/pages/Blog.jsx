@@ -58,27 +58,19 @@ const BlogHome = (props) => {
   const navigate = useNavigate();
 
   return (
-    <div className="blog-home">
+    <div className="blog-grid">
+  {posts.slice(0, 4).map((post, index) => (
+    <div className="blog-listing" key={index}>
+      <h2>{post.title}</h2>
+      <p>{post.content[0].content.slice(0, 80)}...</p>
       <button
-        className={cn("btn", "blog-home-btn")}
-        onClick={() => navigate("/")}
+        className={cn("btn", "blog-btn")}
+        onClick={() => props.OpenPost(post.slug)}
       >
-        Back To Main Website
+        Read More
       </button>
-      <h1>Blog Posts</h1>
-      {/*Each Post clicky thing*/}
-      {posts.map((post, index) => (
-        <div className="blog-listing" key={index}>
-          <h2>{post.title}</h2>
-          <p>{post.content[0].content.slice(0, 50) + "..."}</p>
-          <button
-            className={cn("btn", "blog-btn")}
-            onClick={() => props.OpenPost(post.slug)}
-          >
-            Read More
-          </button>
-        </div>
-      ))}
     </div>
+  ))}
+</div>
   );
 };

@@ -15,23 +15,24 @@ const BlogHome = () => {
 
 
     return ( 
-    <section id="blog-home" className="container">
-        <h1 className="blog-home-title">Recent Blogs</h1>
-
-        {posts.slice(0,3).map((post, index) => (
-        <div className="blog-listing" key={index}>
-          <h2>{post.title}</h2>
-          <p>{post.content[0].content.slice(0, 50) + "..."}</p>
-          <button
-            className={cn("btn", "blog-btn")}
-            onClick={() => OpenPost(post.slug)}
-          >
-            Read More
-          </button>
-        </div>
-      ))}
-
-    </section>
+      <section id="blog-home" className="container">
+      <h1 className="blog-home-title">Recent Blogs</h1>
+    
+      <div className="blog-grid">
+        {posts.slice(0, 4).map((post, index) => (
+          <div className="blog-listing" key={index}>
+            <h2>{post.title}</h2>
+            <p>{post.content[0].content.slice(0, 50)}...</p>
+            <button
+              className={cn("btn", "blog-btn")}
+              onClick={() => OpenPost(post.slug)}
+            >
+              Read More
+            </button>
+          </div>
+        ))}
+      </div>
+    </section>    
     );
 }
 

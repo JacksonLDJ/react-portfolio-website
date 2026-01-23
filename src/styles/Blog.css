@@ -56,7 +56,7 @@
 }
 
 .blog-home {
-    width: 1000px;
+
     margin: 0 auto;
     padding-top: 50px;
     padding: 50px 4rem;
@@ -83,7 +83,22 @@
     }
 }
 
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 1.25rem;
+    margin-top: 3rem;
+}
 
+/* Each blog card */
+.blog-listing {
+    padding: 2rem 2rem;
+    margin: 0; /* important */
+    border: 2px solid #64ffda;
+    border-radius: 2rem;
+    color: white;
+}
 
 
 /* Blog Modifier Classes */
@@ -126,5 +141,12 @@ p {
         left: 50%;
         transform: translateX(-50%);
     }
+
+    @media screen and (max-width: 601px) {
+        .blog-grid {
+            grid-template-columns: 1fr;
+        }
+    }
+    
 
 }
