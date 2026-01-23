@@ -22,6 +22,25 @@ export const posts = [
           "Hello World!"
       },
       {
+        title: "The first Blog Post!",
+        slug: "university",
+        // This is a list of content objects
+        content: [
+          // Example of a content object
+          {
+            // This choose the template component
+            template: "basic",
+            // Title can be empty
+            title: "Blog 2 test!",
+            // Img url can be empty
+            img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*OohqW5DGh9CQS4hLY5FXzA.png",
+            // This overrides class names with custom ones
+            className: "",
+            // Actual Content
+            content:
+              "Hello World!"
+          },
+      {
         template: "align-right",
         title: "",
         className: "blog-text",
