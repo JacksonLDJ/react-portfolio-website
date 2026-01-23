@@ -1,9 +1,8 @@
-Header {
-    height: 20vh;
-    padding-top: 1rem;
-    overflow: hidden;
-    background-color: var(--color-bg);
-    color: var(--color-primary)
+header {
+    height: auto; 
+    min-height: 20vh; 
+    padding: 2rem 1rem; 
+    position: relative;
 }
 
 .header__container {
@@ -63,23 +62,27 @@ Header {
         align-items: center;
     }
 
-    .scroll-down-arrow {
-        bottom: 20px;
-    }
 }
 
 /* Media Queries */
 
 @media screen and (max-width: 606px) {
     header {
-        height: 100vh;
+        height: auto; /* let content define height */
+        padding: 1.5rem 1rem; /* less vertical space */
     }
 
-    .header__socials {
-        display: none;
+    .header__container {
+        padding: 0; /* remove extra space */
     }
 
-    .header__logo {
-        display: none;
+    .cta {
+        flex-direction: column;
+        gap: 1rem;
+        margin-top: 1rem; /* smaller margin on mobile */
+    }
+
+    .scroll-down-arrow {
+        bottom: 20px;
     }
 }
