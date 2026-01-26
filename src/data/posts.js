@@ -3,107 +3,107 @@
 
 export const posts = [
   {
-    title: "Introduction to Penetration Testing",
-    slug: "introduction-to-penetration-testing",
+    title: "TBA",
+    slug: "TBA",
     content: [
       {
-        template: "basic",
-        title: "What is Penetration Testing?",
-        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Gm3FQ5G0xH1WZ4qQn9xk5A.png",
+        template: "TBA",
+        title: "TBA",
+        img: "",
         className: "",
         content:
-          "Test"
+          "TBA"
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "Test"
+          "TBA"
       }
     ]
   },
-  {
-    title: "Introduction to Penetration Testing",
-    slug: "introduction-to-penetration-testing",
+    {
+    title: "TBA",
+    slug: "TBA",
     content: [
       {
-        template: "basic",
-        title: "What is Penetration Testing?",
-        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Gm3FQ5G0xH1WZ4qQn9xk5A.png",
+        template: "TBA",
+        title: "TBA",
+        img: "",
         className: "",
         content:
-          "Test"
+          "TBA"
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "Test"
+          "TBA"
       }
     ]
   },
-  {
-    title: "Introduction to Penetration Testing",
-    slug: "introduction-to-penetration-testing",
+    {
+    title: "TBA",
+    slug: "TBA",
     content: [
       {
-        template: "basic",
-        title: "What is Penetration Testing?",
-        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Gm3FQ5G0xH1WZ4qQn9xk5A.png",
+        template: "TBA",
+        title: "TBA",
+        img: "",
         className: "",
         content:
-          "Test"
+          "TBA"
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "Test"
+          "TBA"
       }
     ]
   },
-  {
-    title: "Introduction to Penetration Testing",
-    slug: "introduction-to-penetration-testing",
+    {
+    title: "TBA",
+    slug: "TBA",
     content: [
       {
-        template: "basic",
-        title: "What is Penetration Testing?",
-        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Gm3FQ5G0xH1WZ4qQn9xk5A.png",
+        template: "TBA",
+        title: "TBA",
+        img: "",
         className: "",
         content:
-          "Test"
+          "TBA"
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "Test"
+          "TBA"
       }
     ]
   },
-  {
-    title: "Introduction to Penetration Testing",
-    slug: "introduction-to-werwer-testing",
+    {
+    title: "TBA",
+    slug: "TBA",
     content: [
       {
-        template: "basic",
-        title: "test?",
-        img: "https://miro.medium.com/v2/resize:fit:720/format:webp/1*Gm3FQ5G0xH1WZ4qQn9xk5A.png",
+        template: "TBA",
+        title: "TBA",
+        img: "",
         className: "",
         content:
-          "Test"
+          "TBA"
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "Test"
+          "TBA"
       }
     ]
   },
