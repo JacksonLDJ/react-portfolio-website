@@ -40,6 +40,7 @@ const About = () => {
               {"*Hi* there! I’m Liam Jackson, a Junior Security Consultant and Penetration Tester. After 10 years working in IT Systems Administration, I made the move into cybersecurity after achieving a First Class degree in DTS: Cybersecurity from the University of Greater Manchester. This site acts as a portfolio to track my progress, projects, and learning as I continue developing my skills and becoming a better penetration tester. Please check out my blog posts to see what I'm up to! "}
             </ReactMarkdown>
           </p>
+          <div className="section-divider"></div>
 
         </div>
       </div>

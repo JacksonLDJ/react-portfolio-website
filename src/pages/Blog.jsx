@@ -27,6 +27,7 @@ export const Blog = () => {
   return <BlogPost post={post} closePost={ClosePost} />;
 };
 
+
 // Post Page Component
 const BlogPost = (props) => {
   return (
@@ -58,19 +59,30 @@ const BlogHome = (props) => {
   const navigate = useNavigate();
 
   return (
-    <div className="blog-grid">
-  {posts.slice(0, 4).map((post, index) => (
-    <div className="blog-listing" key={index}>
-      <h2>{post.title}</h2>
-      <p>{post.content[0].content.slice(0, 80)}...</p>
-      <button
-        className={cn("btn", "blog-btn")}
-        onClick={() => props.OpenPost(post.slug)}
-      >
-        Read More
-      </button>
+    <div className="blog-home">
+      <div className="blog-header">
+        <button
+          className={cn("btn", "blog-home-btn")}
+          onClick={() => navigate("/")}
+        >
+          Home
+        </button>
+      </div>
+
+      <div className="blog-grid">
+        {posts.map((post, index) => (
+          <div className="blog-listing" key={index}>
+            <h2>{post.title}</h2>
+            <p>{post.content[0].content.slice(0, 80)}...</p>
+            <button
+              className={cn("btn", "blog-btn")}
+              onClick={() => props.OpenPost(post.slug)}
+            >
+              Read More
+            </button>
+          </div>
+        ))}
+      </div>
     </div>
-  ))}
-</div>
   );
 };

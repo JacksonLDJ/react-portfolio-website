@@ -35,6 +35,21 @@ header {
     width: 25%;
 }
 
+.section-divider {
+    width: 120px;
+    height: 2px;
+    margin: 2.5rem auto;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      #2ee6d6,
+      transparent
+    );
+    opacity: 0.8;
+  }
+  
+
+
 /* Updated style for the scroll-down arrow */
 .scroll-down-arrow {
     position: fixed;

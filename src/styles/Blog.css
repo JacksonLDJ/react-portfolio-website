@@ -1,6 +1,3 @@
-/* Blog */
-/* Template Defaults */
-
 
 .blog-template-basic {
     p {
@@ -23,7 +20,7 @@
     }
 }
 
-/* Other */
+
 .blog-btn {
     padding: .5rem 2rem !important;
     min-width: auto !important;
@@ -115,7 +112,15 @@ p {
     padding-bottom: 10px;
 }
 
-/* Text Colours */
+.blog-header {
+    margin-bottom: 2rem;
+  }
+  
+  .blog-home-btn {
+    position: relative; 
+    padding: 0.5rem 1.75rem !important;
+  }
+  
 
 
 /* Media Queries */

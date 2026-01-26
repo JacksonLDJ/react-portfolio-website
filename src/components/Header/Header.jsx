@@ -27,6 +27,7 @@ const Header = () => {
         <h1>Liam Jackson</h1>
         <h5>Junior Security Consultant and Penetration Tester</h5>
         <CTA />
+        <div className="section-divider"></div>
       </div>
     </header>
   );

@@ -39,6 +39,20 @@
     color: var(--color-primary);
 }
 
+.section-divider {
+    width: 120px;
+    height: 2px;
+    margin: 2.5rem auto;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      #2ee6d6,
+      transparent
+    );
+    opacity: 0.8;
+  }
+  
+
 @media screen and (max-width: 601px) {
     .about__container {
         text-align: center;
