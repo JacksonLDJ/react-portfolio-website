@@ -16,7 +16,7 @@ const BlogHome = () => {
 
     return ( 
       <section id="blog-home" className="container">
-      <h1 className="blog-home-title">Recent Blogs</h1>
+      <h1 className="blog-home-title">Penetration Testing Write-Ups & Projects</h1>
     
       <div className="blog-grid">
         {posts.slice(0, 4).map((post, index) => (
