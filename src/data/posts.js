@@ -4,11 +4,11 @@
 export const posts = [
   {
     title: "First",
-    slug: "TBA",
+    slug: "First",
     content: [
       {
-        template: "TBA",
-        title: "TBA",
+        template: "First",
+        title: "First",
         img: "",
         className: "",
         content:
