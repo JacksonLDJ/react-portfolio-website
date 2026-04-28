@@ -12,7 +12,19 @@ export const posts = [
         img: "",
         className: "",
         content:
-          "TBA"
+          `
+## Recon
+
+I started with a basic scan:
+
+![Nmap scan screenshot](https://raw.githubusercontent.com/USER/REPO/main/images/nmap.png)
+
+The service exposure showed:
+
+\`\`\`bash
+nmap -sV 10.10.10.10
+\`\`\`
+`
       },
       {
         template: "align-right",

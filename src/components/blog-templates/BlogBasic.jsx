@@ -15,7 +15,9 @@ export const BlogBasic = (props) => {
                 <img src={props.content.img} alt="" />
             }
             <h2>{props.content.title}</h2>
-            <p className="blog-content"><ReactMarkdown>{props.content.content}</ReactMarkdown></p>
+            <div className="blog-content">
+  <ReactMarkdown>{props.content.content}</ReactMarkdown>
+</div>
         </div>
     );
 }
