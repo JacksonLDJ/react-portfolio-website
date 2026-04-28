@@ -74,6 +74,19 @@ I then attempted to connect to this port:
 ![James Admin Remote Access Tool](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/main/htb/SolidState/1_James_Admin.png "Logged into the admin panel")
 
 
+I then checked what users were present and began changing passwords and attempting to log in to their accounts via POP3 to see if I could find anything of use. I eventually found the user Mindy.
+
+![Mindy Password Reset](https://https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/blob/main/htb/SolidState/2_password_change_mindy.png "Password reset for Mindy")
+
+I then logged into her account and started to look through her inbox.
+
+![Mindy Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/blob/main/htb/SolidState/3_Mindy_email.png "First email for Mindy")
+
+The second email revealed new SSH credentials.
+
+![Mindy Second Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/blob/main/htb/SolidState/4_Mindy_login_creds.png "Email revealing SSH creds"
+
+
 
 `
       },
@@ -82,7 +95,7 @@ I then attempted to connect to this port:
         title: "",
         className: "blog-text",
         content:
-          "TBA"
+          ""
       }
     ]
   },
@@ -96,14 +109,14 @@ I then attempted to connect to this port:
         img: "",
         className: "",
         content:
-          "TBA"
+          ""
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "TBA"
+          ""
       }
     ]
   },
@@ -117,14 +130,14 @@ I then attempted to connect to this port:
         img: "",
         className: "",
         content:
-          "TBA"
+          ""
       },
       {
         template: "align-right",
         title: "",
         className: "blog-text",
         content:
-          "TBA"
+          ""
       }
     ]
   },
@@ -138,7 +151,7 @@ I then attempted to connect to this port:
         img: "",
         className: "",
         content:
-          "TBA"
+          ""
       },
       {
         template: "align-right",
