@@ -106,6 +106,22 @@ import sys
 if not os.geteuid() == 0:
     sys.exit("\\nOnly root can run this script\\n")
 \`\`\`
+
+At this point I was slightly stuck, with this being one of my first few HTB machines, I didn't know where to go. I did some reading and admittedly some AI usage to discover cron.
+Cron is basically Linux's built in tash scheduler and it runs commands or scripts automically at set times, much like Windows Task Scheduler. The vast majority of my experience is in Windows so this useful to know.
+
+I discovered that the crontab syntax worked as followed:
+
+\`\`\`bash
+* * * * * /path/to/script.sh
+│ │ │ │ │
+│ │ │ │ └── Day of week (0-7, Sun=0 or 7)
+│ │ │ └──── Month (1-12)
+│ │ └────── Day of month (1-31)
+│ └──────── Hour (0-23)
+└────────── Minute (0-59)
+\`\`\`
+
 `
       },
       {
