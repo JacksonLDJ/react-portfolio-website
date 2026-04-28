@@ -93,7 +93,7 @@ With the newly acquired creds, I SSH into the machine and find the user flag.
 I then ran \`\`\`bash find / -writable -type f 2>/dev/null | grep -v "/proc"\`\`\` to try and find files across the system that I had write permissions to, which could potentially be modified for privilege escalation or persistence.
 Which pointed me to \`\`\`tmp.py\`\`\` which had the following permissions
 
-![File Perms](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/6_file_perms.png "tmp.py" perms)
+![File Perms](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/6_file_perms.png "tmp.py perms")
 
 The content of the file was:
 
