@@ -122,6 +122,15 @@ I discovered that the crontab syntax worked as followed:
 └────────── Minute (0-59)
 \`\`\`
 
+With this in mind, and with the context provided by the python file, I decided to place a reverse shell payload into the Python file to see if the script was being used by a task.
+I edited the python file to:
+
+![Python Reverse](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/7_python_reverse_shell.png "Python Reverse Shell")
+
+I then setup a listener on my Kali machine and waited to see if the script was run, thankfully it was and I was then given root access and was able to grab the final root flag for this lab.
+
+![Root Shell](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/8_reverse_shell_root_flag.png "Root access and flag acquired")
+
 `
       },
       {
