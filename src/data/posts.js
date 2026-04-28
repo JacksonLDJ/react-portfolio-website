@@ -86,8 +86,19 @@ The second email revealed new SSH credentials.
 
 ![Mindy Second Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/4_Mindy_login_creds.png "Email revealing SSH creds")
 
+With the newly acquired creds, I SSH into the machine and find the user flag.
 
+![SSH @Mindy](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/5_user_flag.png "User Flag")
 
+\`\`\`bash
+\${debian_chroot:+($debian_chroot)}mindy@solidstate:/opt$ cat tmp.py
+#!/usr/bin/env python
+
+import os
+import sys
+if not os.geteuid() == 0:
+    sys.exit("\\nOnly root can run this script\\n")
+\`\`\`
 `
       },
       {
