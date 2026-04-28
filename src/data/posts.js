@@ -3,7 +3,7 @@
 
 export const posts = [
   {
-    title: "TBA",
+    title: "First",
     slug: "TBA",
     content: [
       {
