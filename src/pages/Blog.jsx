@@ -5,6 +5,7 @@ import { BlogBasic } from "../components/blog-templates/BlogBasic";
 import { BlogRightAlign } from "../components/blog-templates/BlogRightAlign";
 import { useNavigate } from "react-router-dom";
 import { cn } from "../utils/cn"
+import { markdownPreview } from "../utils/markdownPreview";
 import "../styles/Blog.css";
 
 export const Blog = () => {
@@ -73,7 +74,7 @@ const BlogHome = (props) => {
         {posts.map((post, index) => (
           <div className="blog-listing" key={index}>
             <h2>{post.title}</h2>
-            <p>{post.content[0].content.slice(0, 80)}...</p>
+            <p>{markdownPreview(post.content[0].content, 80)}</p>
             <button
               className={cn("btn", "blog-btn")}
               onClick={() => props.OpenPost(post.slug)}
