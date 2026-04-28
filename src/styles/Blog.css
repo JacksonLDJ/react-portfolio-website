@@ -217,12 +217,13 @@
 
 .blog-content img,
 .blog-content-image {
-    width: 100%;
+    display: block;
+    width: 85%;
     max-width: 100%;
     height: auto;
     border-radius: 1rem;
     border: 1px solid rgba(100, 255, 218, 0.2);
-    margin: 1.5rem 0;
+    margin: 1.5rem auto;
 }
 
 .blog-content blockquote {
@@ -293,5 +294,10 @@
         padding: 1.5rem;
         padding-bottom: 2rem;
         border-radius: 1.5rem;
+    }
+
+    .blog-content img,
+    .blog-content-image {
+        width: 100%;
     }
 }
