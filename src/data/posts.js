@@ -122,8 +122,8 @@ I discovered that the crontab syntax worked as followed:
 └────────── Minute (0-59)
 \`\`\`
 
-After learning about cron and how scheduled tasks can execute scripts automatically, I began looking for files that might be used by such processes. I noticed a Python script located in /opt, which is commonly used to store custom or third-party applications.
-Although I had not yet confirmed that the script was being executed by a scheduled task, its location and nature made it a good candidate for testing. As a result, I modified the script to include a reverse shell payload:
+After learning about cron and how scheduled tasks can execute scripts automatically, and with the Python script we discovered earlier located in /opt, which I had read is commonly used to store custom or third-party applications.
+I decided that it would a good idea to see if this was being used. As a result, I modified the script to include a reverse shell payload:
 
 ![Python Reverse](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/7_python_reverse_shell.png "Python Reverse Shell")
 
