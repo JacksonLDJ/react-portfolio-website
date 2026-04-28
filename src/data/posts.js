@@ -9,7 +9,7 @@ export const posts = [
       {
         template: "",
         title: "",
-        img: "",
+        img: "https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/SolidState_Solved.png",
         className: "",
         content:
           `
@@ -131,6 +131,9 @@ I then setup a listener on my Kali machine and waited to see if the script was r
 
 ![Root Shell](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/8_reverse_shell_root_flag.png "Root access and flag acquired")
 
+Lab solved!
+
+![Root Shell](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/SolidState_Solved.png "Solved!")
 `
       },
       {
