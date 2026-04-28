@@ -80,7 +80,7 @@ I then checked what users were present and began changing passwords and attempti
 
 I then logged into her account and started to look through her inbox.
 
-![Mindy Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/blob/main/htb/SolidState/3_Mindy_email.png "First email for Mindy")
+![Mindy Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/3_Mindy_email.png "First email for Mindy")
 
 The second email revealed new SSH credentials.
 
