@@ -82,9 +82,7 @@ I then logged into her account and started to look through her inbox.
 
 ![Mindy Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/3_Mindy_email.png "First email for Mindy")
 
-The second email revealed new SSH credentials.
-
-![Mindy Second Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/4_Mindy_login_creds.png "Email revealing SSH creds")
+The second email revealed new SSH credentials made for Mindy.
 
 With the newly acquired creds, I SSH'd into the machine and found the user flag.
 
