@@ -72,6 +72,7 @@ I then attempted to connect to this port:
 
 ![James Admin Remote Access Tool](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/main/htb/SolidState/1_James_Admin.png "Logged into the admin panel")
 
+At this point I ended up speaking with my mentor as I wasn't sure how to get the exploit I found working for this machine. He pointed out that there was more than one way around this machine and that it might be worth exploring the users in this and looking to see if there were some emails that revealed anything.
 
 I then checked what users were present and began changing passwords and attempting to log in to their accounts via POP3 to see if I could find anything of use. I eventually found the user Mindy.
 
