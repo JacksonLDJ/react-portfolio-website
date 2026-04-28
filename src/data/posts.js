@@ -71,7 +71,7 @@ Port 4555 was of interest straight away and I did a bit of research into this an
 I then attempted to connect to this port:
 
 
-![James Admin Remote Access Tool](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/main/htb/SolidState/1_James_Admin.png "Logged into the admin portal")
+![James Admin Remote Access Tool](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/main/htb/SolidState/1_James_Admin.png "Logged into the admin panel")
 
 
 
