@@ -13,7 +13,6 @@ export const posts = [
         className: "",
         content:
           `
-## Recon:
 
 To start this lab I started with some basic enumeration of directories and open ports using gobuster and NMAP.
 
