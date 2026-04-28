@@ -3,8 +3,8 @@
 
 export const posts = [
   {
-    title: "First",
-    slug: "First",
+    title: "SolidState",
+    slug: "SolidState",
     content: [
       {
         template: "",
