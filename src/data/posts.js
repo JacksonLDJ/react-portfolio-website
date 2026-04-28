@@ -14,7 +14,7 @@ export const posts = [
         content:
           `
 
-To start this lab I started with some basic enumeration of directories and open ports using gobuster and NMAP.
+Started this machine off with some basic enumeration with Gobuster and NMAP.
 
 Gobuster revealed:
 
@@ -66,7 +66,7 @@ PORT     STATE SERVICE     VERSION
 4555/tcp open  james-admin JAMES Remote Admin 2.3.2
 \`\`\`
 
-Port 4555 was of interest straight away and I did a bit of research into this and found that the default username and password for this was often 'root' 'root'.
+Port 4555 was of interest, I did a bit of research into James Remote Admin 2.3.2 and a potential exploit and found that the default username and password for this was often 'root' 'root'.
 I then attempted to connect to this port:
 
 
@@ -86,11 +86,11 @@ The second email revealed new SSH credentials.
 
 ![Mindy Second Email](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/4_Mindy_login_creds.png "Email revealing SSH creds")
 
-With the newly acquired creds, I SSH into the machine and find the user flag.
+With the newly acquired creds, I SSH'd into the machine and found the user flag.
 
 ![SSH @Mindy](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/5_user_flag.png "User Flag")
 
-I then ran \`\`\`bash find / -writable -type f 2>/dev/null | grep -v "/proc"\`\`\` to try and find files across the system that I had write permissions to, which could potentially be modified for privilege escalation or persistence.
+I then ran \`\`\`bash find / -writable -type f 2>/dev/null | grep -v "/proc"\`\`\` to try and find some files across the system that I had write permissions to, which could potentially be modified for privilege escalation or persistence.
 Which pointed me to \`\`\`tmp.py\`\`\` which had the following permissions
 
 ![File Perms](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/6_file_perms.png "tmp.py perms")
@@ -107,8 +107,8 @@ if not os.geteuid() == 0:
     sys.exit("\\nOnly root can run this script\\n")
 \`\`\`
 
-At this point I was slightly stuck, with this being one of my first few HTB machines, I didn't know where to go. I did some reading and admittedly some AI usage to discover cron.
-Cron is basically Linux's built in tash scheduler and it runs commands or scripts automically at set times, much like Windows Task Scheduler. The vast majority of my experience is in Windows so this useful to know.
+At this point I was slightly stuck, with this being one of my first few HTB machines, I didn't know where to go. I did some research and learned about cron.
+Cron is basically Linux's built in task scheduler and it runs commands or scripts automically at set times, much like Windows Task Scheduler. The vast majority of my experience is in Windows so this useful to know.
 
 I discovered that the crontab syntax worked as followed:
 
@@ -122,8 +122,8 @@ I discovered that the crontab syntax worked as followed:
 └────────── Minute (0-59)
 \`\`\`
 
-With this in mind, and with the context provided by the python file, I decided to place a reverse shell payload into the Python file to see if the script was being used by a task.
-I edited the python file to:
+After learning about cron and how scheduled tasks can execute scripts automatically, I began looking for files that might be used by such processes. I noticed a Python script located in /opt, which is commonly used to store custom or third-party applications.
+Although I had not yet confirmed that the script was being executed by a scheduled task, its location and nature made it a good candidate for testing. As a result, I modified the script to include a reverse shell payload:
 
 ![Python Reverse](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/7_python_reverse_shell.png "Python Reverse Shell")
 
