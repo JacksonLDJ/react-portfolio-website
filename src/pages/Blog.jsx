@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { posts } from "../data/posts";
 import { BlogBasic } from "../components/blog-templates/BlogBasic";
 import { BlogRightAlign } from "../components/blog-templates/BlogRightAlign";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { cn } from "../utils/cn"
 import { markdownPreview } from "../utils/markdownPreview";
@@ -62,22 +62,11 @@ const BlogPost = (props) => {
 
 // Home Page Component
 const BlogHome = (props) => {
-  const navigate = useNavigate();
-
   return (
     <div className="blog-page">
       <BlogMasthead />
 
       <div className="blog-home">
-        <div className="blog-header">
-          <button
-            className={cn("btn", "blog-home-btn")}
-            onClick={() => navigate("/")}
-          >
-            Home
-          </button>
-        </div>
-
         <div className="blog-grid">
           {posts.map((post, index) => (
             <div className="blog-listing" key={index}>
@@ -118,8 +107,9 @@ const BlogMasthead = () => {
       </div>
 
       <div className="blog-masthead__content">
-        <h5>Hello, I'm</h5>
-        <h1>Liam Jackson</h1>
+        <Link to="/" className="blog-masthead__home-link">
+          <h1>Liam Jackson</h1>
+        </Link>
         <h5>Junior Security Consultant and Penetration Tester</h5>
       </div>
 
