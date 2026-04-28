@@ -4,6 +4,7 @@ import { posts } from "../data/posts";
 import { BlogBasic } from "../components/blog-templates/BlogBasic";
 import { BlogRightAlign } from "../components/blog-templates/BlogRightAlign";
 import { Link } from "react-router-dom";
+import { BiArrowBack } from "react-icons/bi";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { cn } from "../utils/cn"
 import { markdownPreview } from "../utils/markdownPreview";
@@ -38,8 +39,13 @@ const BlogPost = (props) => {
 
       <article className="blog-post">
         <div className="blog-post__header">
-          <button className={cn("btn", "blog-btn")} onClick={() => props.closePost()}>
-            Back
+          <button
+            className="blog-post__back-link"
+            onClick={() => props.closePost()}
+            type="button"
+          >
+            <BiArrowBack />
+            <span>All blog posts</span>
           </button>
           <h1>{props.post.title}</h1>
         </div>
