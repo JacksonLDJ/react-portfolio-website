@@ -81,6 +81,10 @@
     margin-bottom: 2.5rem;
 }
 
+.blog-home__header {
+    margin-bottom: 2rem;
+}
+
 .blog-post__back-link {
     display: inline-flex;
     align-items: center;

@@ -76,6 +76,13 @@ const BlogHome = (props) => {
       <BlogMasthead />
 
       <div className="blog-home">
+        <div className="blog-home__header">
+          <Link to="/" className="blog-post__back-link">
+            <BiArrowBack />
+            <span>Home Page</span>
+          </Link>
+        </div>
+
         <div className="blog-grid">
           {posts.map((post, index) => (
             <div className="blog-listing" key={index}>
