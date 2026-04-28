@@ -4,6 +4,7 @@ import { posts } from "../data/posts";
 import { BlogBasic } from "../components/blog-templates/BlogBasic";
 import { BlogRightAlign } from "../components/blog-templates/BlogRightAlign";
 import { useNavigate } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { cn } from "../utils/cn"
 import { markdownPreview } from "../utils/markdownPreview";
 import "../styles/Blog.css";
@@ -32,25 +33,29 @@ export const Blog = () => {
 // Post Page Component
 const BlogPost = (props) => {
   return (
-    <div className="blog-post">
-      <button className={cn("btn", "blog-btn")} onClick={() => props.closePost()}>
-        Back
-      </button>
-      <h1>{props.post.title}</h1>
-      {/*Each post content - .map is a for loop where it looks like () => and the brackets are the args and everything after => is what is rendered*/}
-      {props.post.content.map((content, index) => {
-        // switch statement will render the correct template depending on what is set in the the post.js file for each content object
-        switch (content.template) {
-          case "align-right":
-            return <BlogRightAlign content={content} index={index} />;
-          // To add a new option add: 
-          // case "{nameoftemplate}":
-          //   return <ComponentYouWantToUse content={content} index={index} />
-          // Make sure you import the component you want
-          default:
-            return <BlogBasic content={content} index={index} />;
-        }
-      })}
+    <div className="blog-page">
+      <BlogMasthead />
+
+      <div className="blog-post">
+        <button className={cn("btn", "blog-btn")} onClick={() => props.closePost()}>
+          Back
+        </button>
+        <h1>{props.post.title}</h1>
+        {/*Each post content - .map is a for loop where it looks like () => and the brackets are the args and everything after => is what is rendered*/}
+        {props.post.content.map((content, index) => {
+          // switch statement will render the correct template depending on what is set in the the post.js file for each content object
+          switch (content.template) {
+            case "align-right":
+              return <BlogRightAlign content={content} index={index} />;
+            // To add a new option add:
+            // case "{nameoftemplate}":
+            //   return <ComponentYouWantToUse content={content} index={index} />
+            // Make sure you import the component you want
+            default:
+              return <BlogBasic content={content} index={index} />;
+          }
+        })}
+      </div>
     </div>
   );
 };
@@ -60,30 +65,65 @@ const BlogHome = (props) => {
   const navigate = useNavigate();
 
   return (
-    <div className="blog-home">
-      <div className="blog-header">
-        <button
-          className={cn("btn", "blog-home-btn")}
-          onClick={() => navigate("/")}
-        >
-          Home
-        </button>
-      </div>
+    <div className="blog-page">
+      <BlogMasthead />
 
-      <div className="blog-grid">
-        {posts.map((post, index) => (
-          <div className="blog-listing" key={index}>
-            <h2>{post.title}</h2>
-            <p>{markdownPreview(post.content[0].content, 80)}</p>
-            <button
-              className={cn("btn", "blog-btn")}
-              onClick={() => props.OpenPost(post.slug)}
-            >
-              Read More
-            </button>
-          </div>
-        ))}
+      <div className="blog-home">
+        <div className="blog-header">
+          <button
+            className={cn("btn", "blog-home-btn")}
+            onClick={() => navigate("/")}
+          >
+            Home
+          </button>
+        </div>
+
+        <div className="blog-grid">
+          {posts.map((post, index) => (
+            <div className="blog-listing" key={index}>
+              <h2>{post.title}</h2>
+              <p>{markdownPreview(post.content[0].content, 80)}</p>
+              <button
+                className={cn("btn", "blog-btn")}
+                onClick={() => props.OpenPost(post.slug)}
+              >
+                Read More
+              </button>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
+  );
+};
+
+const BlogMasthead = () => {
+  return (
+    <header className="blog-masthead">
+      <div className="blog-masthead__socials">
+        <a
+          href="https://www.linkedin.com/in/liam-jackson-29717a294/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaLinkedin />
+        </a>
+        <a
+          href="https://github.com/JacksonLDJ"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaGithub />
+        </a>
+      </div>
+
+      <div className="blog-masthead__content">
+        <h5>Hello, I'm</h5>
+        <h1>Liam Jackson</h1>
+        <h5>Junior Security Consultant and Penetration Tester</h5>
+      </div>
+
+      <div className="section-divider"></div>
+    </header>
   );
 };
