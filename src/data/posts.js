@@ -125,7 +125,7 @@ I decided that it would a good idea to see if this was being used. As a result, 
 
 ![Python Reverse](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/7_python_reverse_shell.png "Python Reverse Shell")
 
-I then setup a listener on my Kali machine and waited to see if the script was run, thankfully it was and I was then given root access and was able to grab the final root flag for this lab.
+I then setup a listener on my Kali machine and waited to see if the script was run, thankfully it was and I was then given root access and was able to grab the final root flag for this lab. I've since discovered pspy which I could have used to discover processes running without needing root, which I will use for next time!
 
 ![Root Shell](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/refs/heads/main/htb/SolidState/8_reverse_shell_root_flag.png "Root access and flag acquired")
 
