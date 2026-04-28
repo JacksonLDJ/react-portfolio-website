@@ -7,8 +7,8 @@ export const posts = [
     slug: "First",
     content: [
       {
-        template: "First",
-        title: "First",
+        template: "",
+        title: "",
         img: "",
         className: "",
         content:
