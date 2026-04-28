@@ -1,6 +1,7 @@
 import React from "react";
 import { cn } from "../../utils/cn";
 import ReactMarkdown from "react-markdown";
+import { markdownComponents } from "../../utils/markdownComponents";
 
 export const BlogRightAlign = (props) => {
   return (
@@ -15,7 +16,9 @@ export const BlogRightAlign = (props) => {
       {props.content.title && <h2>{props.content.title}</h2>}
 
       <div className="blog-content">
-        <ReactMarkdown>{props.content.content}</ReactMarkdown>
+        <ReactMarkdown components={markdownComponents}>
+          {props.content.content}
+        </ReactMarkdown>
       </div>
     </article>
   );

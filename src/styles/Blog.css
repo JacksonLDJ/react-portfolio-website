@@ -230,6 +230,19 @@
     margin: 1.5rem auto;
 }
 
+.blog-figure {
+    margin: 1.75rem 0;
+}
+
+.blog-figure figcaption {
+    width: 60%;
+    margin: -0.5rem auto 0;
+    color: var(--color-primary);
+    font-size: 0.9rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
 .blog-content blockquote {
     border-left: 3px solid #64ffda;
     padding-left: 1rem;
@@ -301,7 +314,8 @@
     }
 
     .blog-content img,
-    .blog-content-image {
+    .blog-content-image,
+    .blog-figure figcaption {
         width: 100%;
     }
 }
