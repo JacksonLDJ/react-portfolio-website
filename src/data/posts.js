@@ -65,10 +65,16 @@ PORT     STATE SERVICE     VERSION
 110/tcp  open  pop3        JAMES pop3d 2.3.2
 119/tcp  open  nntp        JAMES nntpd (posting ok)
 4555/tcp open  james-admin JAMES Remote Admin 2.3.2
-
-
-
 \`\`\`
+
+Port 4555 was of interest straight away and I did a bit of research into this and found that the default username and password for this was often 'root' 'root'.
+I then attempted to connect to this port:
+
+
+![James Admin Remote Access Tool](https://raw.githubusercontent.com/JacksonLDJ/writeup-assets/main/htb/SolidState/1_James_Admin.png)
+
+
+
 `
       },
       {
