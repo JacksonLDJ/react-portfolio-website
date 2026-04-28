@@ -36,11 +36,14 @@ const BlogPost = (props) => {
     <div className="blog-page">
       <BlogMasthead />
 
-      <div className="blog-post">
-        <button className={cn("btn", "blog-btn")} onClick={() => props.closePost()}>
-          Back
-        </button>
-        <h1>{props.post.title}</h1>
+      <article className="blog-post">
+        <div className="blog-post__header">
+          <button className={cn("btn", "blog-btn")} onClick={() => props.closePost()}>
+            Back
+          </button>
+          <h1>{props.post.title}</h1>
+        </div>
+
         {/*Each post content - .map is a for loop where it looks like () => and the brackets are the args and everything after => is what is rendered*/}
         {props.post.content.map((content, index) => {
           // switch statement will render the correct template depending on what is set in the the post.js file for each content object
@@ -55,7 +58,7 @@ const BlogPost = (props) => {
               return <BlogBasic content={content} index={index} />;
           }
         })}
-      </div>
+      </article>
     </div>
   );
 };
